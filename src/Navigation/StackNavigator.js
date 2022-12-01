@@ -22,6 +22,7 @@ import ThongTinBanBe from "../Screens/ThongTinBanBe";
 import TrangCaNhan from "../Screens/TrangCaNhan";
 import TuyChonTrangCaNhan from "../Screens/TuyChonTrangCaNhan";
 import ThongTinCaNhan from "../Screens/ThongTinCaNhan";
+import ChinhSuaThongTinCaNhan from "../Screens/ChinhSuaThongTinCaNhan";
 
 
 const Stack = createStackNavigator();
@@ -112,6 +113,10 @@ const StackNavigator = () => {
 <Stack.Screen
         options={{ headerMode: 'none' }}
         name="TuyChonTrangCaNhan" component={TuyChonTrangCaNhan} />
+
+<Stack.Screen
+        options={{ headerMode: 'none' }}
+        name="ChinhSuaThongTinCaNhan" component={ChinhSuaThongTinCaNhan} />
 
     </Stack.Navigator>
   )

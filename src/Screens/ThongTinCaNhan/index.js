@@ -58,7 +58,7 @@ const ThongTinCaNhan = () => {
                 
             </View>
             <View style={{marginTop:20,alignItems:'center'}}>
-                    <TouchableOpacity style={{width:300,height:40,borderRadius:25,backgroundColor:'#dcdcdc',flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
+                    <TouchableOpacity style={{width:300,height:40,borderRadius:25,backgroundColor:'#dcdcdc',flexDirection:'row',justifyContent:'center',alignItems:'center'}} onPress={() => navigation.navigate("ChinhSuaThongTinCaNhan")}>
                     <Feather name="edit-3" size={20} />
                     <Text style={{fontWeight:'bold'}}>Chỉnh sữa</Text>
                     </TouchableOpacity>
