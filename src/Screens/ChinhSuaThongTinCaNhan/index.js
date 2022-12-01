@@ -46,12 +46,14 @@ const ChinhSuaThonTinCaNhan = () => {
                                     <Feather style={{ color: 'blue' }} name="edit-3" size={15} />
                                 </TouchableOpacity>
                             </View>
-                            <View style={{ marginTop: 5, marginLeft: 10, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', width: 250 }}>
+                            <View style={{ height: 2, backgroundColor: '#e6e6fa', marginTop: 10,width:250,marginLeft:10 }}></View>
+                            <View style={{ marginTop: 10, marginLeft: 10, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', width: 250 }}>
                                 <TextInput style={{ fontSize: 18 }}>12/01/2000 </TextInput>
                                 <TouchableOpacity>
                                     <Feather style={{ color: 'blue' }} name="edit-3" size={15} />
                                 </TouchableOpacity>
                             </View>
+                            <View style={{ height: 1, backgroundColor: '#e6e6fa', marginTop: 10,width:250,marginLeft:10 }}></View>
                             <View style={{ flexDirection: 'row', marginTop: 10 }}>
                                 <CheckBox
                                     
