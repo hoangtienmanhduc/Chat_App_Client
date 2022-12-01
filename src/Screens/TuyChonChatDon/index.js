@@ -46,7 +46,7 @@ const TuyChonChatDon = () => {
                         <Text>Tìm</Text>
                         <Text>tin nhắn</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={{ justifyContent: 'center', alignItems: 'center' }} onPress={() => navigation.navigate("ThemThanhVien")}>
+                    <TouchableOpacity style={{ justifyContent: 'center', alignItems: 'center' }} onPress={() => navigation.navigate("TrangCaNhanBanBe")}>
                         <View style={{ backgroundColor: '#e6e6fa', height: 30, width: 30, justifyContent: 'center', borderRadius: 50, alignItems: 'center' }}>
                             <Feather name="user" size={20} />
                         </View>
